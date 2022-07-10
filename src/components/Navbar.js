@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
 
 import Logo from '../assets/images/Logo.png'
-// import { borderBottom } from '@mui/system';
+
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
     >
       <Link to="/">
         <img src= {Logo} alt='logo' style={{
-          width: '48', height: '48px', margin: '0 20px' 
+          width: '70px', height: '70px', margin: '0 20px' 
         }
         }/>
       </Link>

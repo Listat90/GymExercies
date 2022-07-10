@@ -30,7 +30,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
          }}
             
     >
-        <img src ={Icon} alt="dumbbell" style = {{width: '40px', height: '40px'}}/>  
+        <img src ={Icon} alt="dumbbell" style = {{width: '90px', height: '90px'}}/>  
     
     <Typography fontSize="24px" fontWeight="bold" color="#3A1212" textTransform="capitalize">{item}</Typography>
     </Stack>
